@@ -455,7 +455,7 @@
     echo '</br>';
 
 // Cau 24
-    function FindMaxOdd(){
+    function findMaxOdd(){
         $arr = [];
 		for ($i= 0; $i < 10; $i++) { 
 			array_push($arr, rand(0, 100));
@@ -475,11 +475,11 @@
         }
         echo "Số lẻ lớn nhất trong mảng là: " . $max;    
     }
-    echo FindMaxOdd();
+    echo findMaxOdd();
     echo '</br>';
 
 // Cau 25
-    function PrimeNumber() {
+    function primeNumber() {
         $number = 17;
         if($number < 2){
             echo $number . " không phải là số nguyên tố. <br>";
@@ -496,7 +496,7 @@
             echo $number . " không phải là số nguyên tố. <br>";
         }
     }   
-    echo PrimeNumber();
+    echo primeNumber();
     echo '</br>';
 
 // Cau 26
